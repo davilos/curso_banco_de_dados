@@ -1,0 +1,13 @@
+1) SQL é a linguagem padrão dos Bancos de Dados Relacionais.
+
+2) Cinco grupos. DQL, DML, DDL, DCL, DTL.
+
+3) SELECT é o único comando do DQL. O objetivo desse subgrupo é realizar consultas no banco de dados.
+
+4) INSERT, UPDATE e DELETE são os comandos do DML. O objetivo desse subgrupo é realizar inclusões, alterações e exclusões de dados presentes em registros do banco de dados.
+
+5) CREATE, ALTER e DROP são os comandos do DDL. O objetivo desse subgrupo é criar, alterar e excluir bancos de dados, tabelas e elementos associados como índice e visão.
+
+6) GRANT e REVOKE são os comandos do DCL. O objetivo desse subgrupo é controlar os aspectos de autorização de dados e licenças de usuários para controlar quem tem acesso para manipular dados dentro do banco de dados.
+
+7) BEGIN, COMMIT e ROLLBACK são os comandos do DTL. O objetivo desse subgrupo é gerenciar diferentes transações ocorridas dentro de um banco de dados.
