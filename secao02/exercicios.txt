@@ -1,0 +1,23 @@
+1) São informações sobre algo ou alguém.
+
+2) São as informações dos dados, que nos ajudam a entender a lógica dos tais.
+
+3) Dados brutos não são entendidos por outros desenvolvedores. Pra isso existe a
+informação, ela vai explicar quais dados são aqueles, se são nomes, datas ou etc.
+
+4) Os dados são guardados entre tabelas que por sua vez podem ou não estarem relacionadas.
+
+5) Os dados NÃO são guardados entre tabelas, mas podendo ser guardados em sistemas de
+chave/valor, documentos, colunas e etc.
+
+6) O grande diferencial é a performance, os não relacionais por não trabalhar com tabelas, são
+mais rápidos que os relacionais.
+
+7) MySQL, PostgreSQL e SQLite.
+
+8) MongoDB, Redis e CouchDB
+
+9) Existem os fornecedores de recursos ou serviços a rede, que são chamados de servidores, e existem
+os requerentes dos recursos ou serviços, denominados clientes.
+
+10) Banco de dados, servidor web e servidor de fax.
