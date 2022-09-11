@@ -1,0 +1,20 @@
+1) Modelagem Conceitual: O nível conceitual é desenvolvido com alto nível de abstração, a partir dos requisitos do sistema, extraídos na fase de levantamento de requisitos pelos analistas de sistemas.
+
+2) Modelagem Lógica: Este modelo descreve como os dados serão armazenados no banco de dados e também seus relacionamentos, neste modelo, devemos escolher entre Banco de Dados Relacionais ou Não Relacionais.
+
+3) Modelagem Física: Descreve por meio de alguma linguagem como será feita a armazenagem do banco. Basicamente é aqui que vai começar a parte dos códigos.
+
+4) Cardinalidade máxima: Define a quantidade máxima de ocorrências de uma entidade que poderá estar associada a outra entidade.
+Cardinalidade mínima: Defina a quantidade mínima de ocorrências de uma entidade que PRECISA estar associada a outra entidade. São consideradas como cardinalidades mínimas: 0 e 1.
+
+5) É o processo formal e passo a passo que examina o documento descritivo gerado pelos analistas de sistemas durante a análise de requisitos em busca de definir entidades, atributos, relacionamentos, chaves primárias e chaves estrangeiras.
+
+6) Uma entidade estará na primeira forma normal se todos os campos forem simples, e não multivalorados. Endereço: Rua, Bairro, Cep.
+
+7) Uma entidade estará na segunda forma normal se ela já se encontrar na 1FN e todos os atributos não chave forem totalmente dependentes da chave primária.
+
+8) Uma entidade estára na terceira forma normal se ela já se encontrar na 2FN e se nenhuma coluna não-chave depender de outra coluna não-chave. Subtotal: Quant * Valor_unit.
+
+9) O MER é utilizado para descrever os objetos do mundo real através de entidades, com suas propriedades que são os atributos e os seus relacionamentos. Basicamente é a parte de lógica do sistema, que vamos pensar em cada parte a ser modelada. É um modelo conceitual.
+
+10) O DER é a representação gráfica para o MER, é o que estamos estudando agora.
