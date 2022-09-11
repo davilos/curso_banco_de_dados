@@ -1,0 +1,15 @@
+1) Para consultar dados específicos, e não trazer todos os dados em si.
+
+2) Porque quando temos relacionamentos entre tabelas, significa que os dados estão espalhados entre estas tabelas, e ao precisarmos realizar consultas ás vezes precisamos consultar nestas múltiplas tabelas.
+
+3) Uma junção de tabelas é uma pseudo-tabela derivada de duas ou mais tabelas de acordo com as regras especificadas, e que são parecidas com as regras da Teoria dos Conjuntos.
+
+4) São funções que podem ser usadas para agregar um conjunto de valores em único resultado através de uma consulta. Max, Min, Sum.
+
+5) Para uma melhor apresentação, se faz necessário agrupar ou ordenar os resultados.
+
+6) A ordenação padrão é ascendente. Do menor para o maior.
+
+7) Time, Datetime, Date.
+
+8) É uma instrução SELECT dentro de outro SELECT.
