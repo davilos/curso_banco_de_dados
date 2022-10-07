@@ -1,61 +1,63 @@
+CREATE DATABASE locadora;
+
 CREATE TABLE "generos" (
-  "id" int PRIMARY KEY,
-  "genero" varchar NOT NULL
+  "id" serial PRIMARY KEY,
+  "genero" varchar(50) NOT NULL
 );
 
 CREATE TABLE "filmes" (
-  "id" int PRIMARY KEY,
-  "titulo" varchar NOT NULL,
+  "id" serial PRIMARY KEY,
+  "titulo" varchar(50) NOT NULL,
   "id_genero" int NOT NULL,
   "valor" decimal(8,2) NOT NULL
 );
 
 CREATE TABLE "dvds" (
-  "id" int PRIMARY KEY,
+  "id" serial PRIMARY KEY,
   "id_filme" int NOT NULL,
   "quantidade" int NOT NULL
 );
 
 CREATE TABLE "atores" (
-  "id" int PRIMARY KEY,
-  "nome" varchar NOT NULL
+  "id" serial PRIMARY KEY,
+  "nome" varchar(50) NOT NULL
 );
 
 CREATE TABLE "atores_filmes" (
-  "id" int PRIMARY KEY,
+  "id" serial PRIMARY KEY,
   "id_filme" int NOT NULL,
   "id_ator" int NOT NULL,
   "personagem" varchar NOT NULL
 );
 
 CREATE TABLE "clientes" (
-  "id" int PRIMARY KEY,
-  "nome" varchar NOT NULL,
-  "sobrenome" varchar NOT NULL,
-  "telefone" varchar NOT NULL,
-  "endereco" varchar NOT NULL
+  "id" serial PRIMARY KEY,
+  "nome" varchar(50) NOT NULL,
+  "sobrenome" varchar(50) NOT NULL,
+  "telefone" varchar(20) NOT NULL,
+  "endereco" varchar(100) NOT NULL
 );
 
 CREATE TABLE "emprestimos" (
-  "id" int PRIMARY KEY,
+  "id" serial PRIMARY KEY,
   "id_cliente" int NOT NULL,
-  "data" datetime NOT NULL
+  "data" date NOT NULL
 );
 
 CREATE TABLE "filmes_emprestimo" (
-  "id" int PRIMARY KEY,
+  "id" serial PRIMARY KEY,
   "id_emprestimo" int NOT NULL,
   "id_filme" int NOT NULL
 );
 
 CREATE TABLE "devolucoes" (
-  "id" int PRIMARY KEY,
+  "id" serial PRIMARY KEY,
   "id_emprestimo" int NOT NULL,
-  "data" datetime NOT NULL
+  "data" date NOT NULL
 );
 
 CREATE TABLE "filmes_devolucao" (
-  "id" int PRIMARY KEY,
+  "id" serial PRIMARY KEY,
   "id_devolucao" int NOT NULL,
   "id_filme_emprestimo" int NOT NULL
 );
